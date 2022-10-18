@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
+import{BaseImage} from '@/components/BaseImage.vue';
 
 
 </script>
@@ -14,6 +15,7 @@ import { RouterLink, RouterView } from 'vue-router';
       </nav>
   <RouterView />
   <br>
+  <BaseImage src="logo.svg"/>
 </template>
 
 <style scoped>
