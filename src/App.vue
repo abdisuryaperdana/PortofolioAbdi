@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
-import{BaseImage} from '@/components/BaseImage.vue';
+import BaseImage from '@/components/BaseImage.vue';
 
 
 </script>
